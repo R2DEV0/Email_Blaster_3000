@@ -1,0 +1,64 @@
+*{
+    color: rgb(56, 224, 34);
+}
+body{
+    background-color: black;
+}
+.title{
+    font-family: OCR A Std, monospace;
+    font-weight: bold;
+}
+.subtitle{
+    font-family: OCR A Std, monospace;
+    font-size: 20px;
+}
+.v{
+    font-size: 28px;
+}
+.newEmail{
+    font-family: OCR A Std, monospace;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid rgb(56, 224, 34);
+}
+.form-control{
+    font-family: OCR A Std, monospace;
+    background-color: rgb(182, 182, 182);
+    color: black;
+}
+.form-control:focus{
+    color: black;
+    background-color: rgb(211, 210, 210);
+}
+.hr{
+    background-color: rgb(56, 224, 34);
+}
+.from{
+    font-family: OCR A Std, monospace;
+}
+.to{
+    font-family: OCR A Std, monospace;
+}
+.message{
+    font-family: OCR A Std, monospace;
+}
+.subject{
+    font-family: OCR A Std, monospace;
+}
+.attach{
+    font-family: OCR A Std, monospace;
+    font-size: 15px;
+    color: rgb(56, 224, 34);
+}
+.blast{
+    font-family: OCR A Std, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(56, 224, 34);
+}
+.send{
+    margin-top: -10px;
+}
+
+

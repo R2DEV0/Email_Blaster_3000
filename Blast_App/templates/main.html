@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='../static/main.css'>
+    <title>Email Blaster 3000</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="col-12 text-center mt-4 title">Welcome to Email Blaster 3000<span class="v"> v2.0</span></h1>
+        <p class="col-12 text-center subtitle">For all of your email blasting needs</p>
+        <hr class="hr">
+        <h3 class="col-12 text-center mt-5 newEmail">Create a new Email</h3>
+        <br>
+        <form action="/blast" method="POST" class="col-12 offset-2 mt-3" enctype="multipart/form-data">
+        {% csrf_token %}
+            <div class="col-8 row">
+                <label for="subject" class="subject">Subject:</label>
+                <input class='form-control' name='subject' type="text" placeholder="Enter email subject...">
+            </div>
+            <div class="col-8 row mt-2">
+                <label for="From" class="from">From:</label>
+                <input class='form-control' name='email' type="text" placeholder="Enter the email you want to send from...">
+            </div>
+            <div class="col-8 row mt-2">
+                <label for="password" class="password">Password:</label>
+                <input class='form-control' name='password' type="password" placeholder="Gmail App password (Not your normal email password)...">
+                <a class="offset-10 info" href="/info">more info</a>
+            </div>
+            <div class="col-8 row send">
+                <label for="To" class="to">To:</label>
+                <input class='form-control' type="text" name='email_to' placeholder="Enter the email addresses you want to send to using a space to separate...">
+            </div>
+            <div class="col-8 row mt-2">
+                <label for="message" class="message">Message:</label>
+                <textarea class='form-control' name="message" id="message" cols="30" rows="5" placeholder="Add your message..."></textarea>
+            </div>
+            <!-- <input type='file' name='file' class="offset-5 mt-3 attach"/> -->
+            <button class="col-6 offset-1 btn btn-secondary btn-lg mt-4 blast">Commence Blast</button>
+        </form>
+    </div>
+</body>
+</html>

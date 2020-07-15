@@ -1,0 +1,38 @@
+*{
+    color: rgb(56, 224, 34);
+}
+
+body{
+    background-color: black;
+}
+
+.title{
+    font-family: OCR A Std, monospace;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-family: OCR A Std, monospace;
+    font-size: 20px;
+}
+
+.v{
+    font-size: 28px;
+}
+
+.newEmail{
+    font-family: OCR A Std, monospace;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid rgb(56, 224, 34);
+}
+
+.hr{
+    background-color: rgb(56, 224, 34);
+}
+
+.main{
+    font-family: OCR A Std, monospace;
+    color: rgb(56, 224, 34);
+}
