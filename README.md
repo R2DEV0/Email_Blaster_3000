@@ -4,4 +4,4 @@ Simple app for emailing multiple users in the "To" section and sends one email a
 
 Most recent repository is set to private. 
 
-Link to Demo Video: https://www.youtube.com/watch?v=ybdFvU1d57k
+Link to Demo Video: https://youtu.be/3tUS4E7M2x0
