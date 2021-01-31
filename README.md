@@ -8,4 +8,4 @@ Current site: http://3.135.182.99/
 
 Updated Github Repo: https://github.com/R2DEV0/EmailBlaster3000
 
-![image](https://user-images.githubusercontent.com/60448259/104136420-ce5fc400-534a-11eb-80be-be66228cef28.png)
+![image](https://user-images.githubusercontent.com/60448259/106391238-3f6e2680-63a1-11eb-8ba2-a7b2bddedd95.png)
