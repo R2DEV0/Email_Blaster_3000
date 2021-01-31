@@ -4,7 +4,7 @@ I created this application to make my job easier while working for Keltrans Frei
 
 Link to Demo Video: https://youtu.be/3tUS4E7M2x0
 
-Current site: http://18.219.30.191/
+Current site: http://3.135.182.99/
 
 Updated Github Repo: https://github.com/R2DEV0/EmailBlaster3000
 
