@@ -4,6 +4,6 @@ I created this application to make my job easier while working for Keltrans Frei
 
 Link to Demo Video: [https://youtu.be/3tUS4E7M2x0](https://youtu.be/nQRCq4rZCQA)
 
-Updated Github Repo: 
+Updated Github Repo: https://github.com/R2DEV0/EmailBlaster3000
 
 ![image](https://user-images.githubusercontent.com/60448259/106391238-3f6e2680-63a1-11eb-8ba2-a7b2bddedd95.png)
